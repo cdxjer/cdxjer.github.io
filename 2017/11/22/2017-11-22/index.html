@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="今天终于搭建好了第一个属于自己的博客，也算是迈向技术流的第一步吧，接下来会具体的介绍一下搭建的过程。">
+<meta name="description" content="今天终于搭建好了第一个属于自己的博客，也算是迈向技术流的第一步吧，接下来会具体的介绍一下搭建的过程。 安装必要程序##安装git ##安装Node.js ##安装HEXO">
 <meta name="keywords" content="记录">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Github + Hexo搭建博客之路">
 <meta property="og:url" content="http://yoursite.com/2017/11/22/2017-11-22/index.html">
 <meta property="og:site_name" content="闲生未可知">
-<meta property="og:description" content="今天终于搭建好了第一个属于自己的博客，也算是迈向技术流的第一步吧，接下来会具体的介绍一下搭建的过程。">
+<meta property="og:description" content="今天终于搭建好了第一个属于自己的博客，也算是迈向技术流的第一步吧，接下来会具体的介绍一下搭建的过程。 安装必要程序##安装git ##安装Node.js ##安装HEXO">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-22T11:10:02.375Z">
+<meta property="og:updated_time" content="2017-11-22T11:21:34.658Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Github + Hexo搭建博客之路">
-<meta name="twitter:description" content="今天终于搭建好了第一个属于自己的博客，也算是迈向技术流的第一步吧，接下来会具体的介绍一下搭建的过程。">
+<meta name="twitter:description" content="今天终于搭建好了第一个属于自己的博客，也算是迈向技术流的第一步吧，接下来会具体的介绍一下搭建的过程。 安装必要程序##安装git ##安装Node.js ##安装HEXO">
 
 
 
@@ -100,7 +100,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Muse',
     version: '5.1.3',
     sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -193,16 +193,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
@@ -229,36 +219,6 @@
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-schedule">
-          <a href="/schedule/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
-            
-            日程表
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-sitemap">
-          <a href="/sitemap.xml" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
-            
-            站点地图
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/404/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
-            
-            公益404
           </a>
         </li>
       
@@ -385,6 +345,9 @@
 
       
         <p>今天终于搭建好了第一个属于自己的博客，也算是迈向技术流的第一步吧，接下来会具体的介绍一下搭建的过程。</p>
+<h1 id="安装必要程序"><a href="#安装必要程序" class="headerlink" title="安装必要程序"></a>安装必要程序</h1><p>##安装git</p>
+<p>##安装Node.js</p>
+<p>##安装HEXO</p>
 
       
     </div>
@@ -475,8 +438,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -564,6 +536,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安装必要程序"><span class="nav-number">1.</span> <span class="nav-text">安装必要程序</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -595,7 +583,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.3</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.3</div>
 
 
 
@@ -701,13 +689,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
-
-
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
