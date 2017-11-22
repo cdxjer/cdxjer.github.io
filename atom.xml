@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-22T11:22:59.174Z</updated>
+  <updated>2017-11-22T11:41:26.498Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2017/11/22/2017-11-22/"/>
     <id>http://yoursite.com/2017/11/22/2017-11-22/</id>
     <published>2017-11-22T11:06:28.000Z</published>
-    <updated>2017-11-22T11:22:59.174Z</updated>
+    <updated>2017-11-22T11:41:26.498Z</updated>
     
     <content type="html"><![CDATA[<p>今天终于搭建好了第一个属于自己的博客，也算是迈向技术流的第一步吧，接下来会具体的介绍一下搭建的过程。</p><h1 id="安装必要程序"><a href="#安装必要程序" class="headerlink" title="安装必要程序"></a>安装必要程序</h1><h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><h2 id="安装HEXO"><a href="#安装HEXO" class="headerlink" title="安装HEXO"></a>安装HEXO</h2>]]></content>
     
